@@ -1,1 +1,1 @@
-# desicion-to-leave
+# decision-to-leave
