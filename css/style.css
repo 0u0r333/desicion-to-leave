@@ -528,7 +528,7 @@ footer .container .row:last-child p{
     } 
 
     #video{
-        height: 750px;
+        height: 100%;
     }
 
     #video .container .box{
