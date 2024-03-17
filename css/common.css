@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+/* 
+.mukta-extralight {
+    font-family: "Mukta", sans-serif;
+  } 
+
+  .gowun-batang-regular {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans kr-<uniquifier> {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  
+  
+  */
+
+body{
+    color:#444;
+}
+
+
+/*top button */
+.button{
+    background-color: #e682d7;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 999;
+    text-align: center;
+    font-size: 1rem;
+    color:#222;
+    display: none;
+    cursor: pointer;
+}
+
+.button a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* 모바일 세로 (해상도 ~ 429px)*/ 
+@media all and (max-width:429px) {
+    .button{
+        background-color: #e682d7;
+        width: 50px;
+        height: 50px;
+        border-radius: 60px;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        z-index: 999;
+        text-align: center;
+        font-size: 1rem;
+        color:#222;
+        display: none;
+        cursor: pointer;
+    }
+}
